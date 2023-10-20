@@ -33,7 +33,7 @@ h2{
 }
 @font-face {
   font-family: "Satoshi-Medium";
-  src: url("../fonts/Satoshi-Black.woff2") format("woff2");
+  src: url("../fonts/Satoshi-Light.woff2") format("woff2");
   font-style: normal;
   font-weight: 500;
 }
