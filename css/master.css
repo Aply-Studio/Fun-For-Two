@@ -27,7 +27,7 @@ h2{
 }
 @font-face {
   font-family: "Supreme-Medium";
-  src: url("../fonts/Satoshi-Light.woff2") format("woff2");
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
   font-style: normal;
   font-weight: 500;
 }
@@ -153,7 +153,7 @@ h2{
   margin-bottom: 30px;
 }
 option{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600px;
   padding: 3px;"
 }
@@ -193,7 +193,7 @@ option{
 .Login-Data h1{
   font-family: 'Author-Regular', sans-serif;
   font-weight: 700;
-  font-size  : 55px;
+  font-size  : 3rem;
   color      : #282828;
 
   padding-bottom: 25px;
@@ -201,7 +201,7 @@ option{
 .Login-Data input{
   font-family: 'Satoshi-Medium', sans-serif;
   font-weight: 700;
-  font-size  : 45px;
+  font-size  : 2.5rem;
   color      : #282828;
 
   padding-bottom: 15px;
@@ -229,7 +229,7 @@ option{
 .Login-Btn h1{
   font-family: 'Author-Regular', sans-serif;
   font-weight: 700;
-  font-size  : 45px;
+  font-size  : 2.5rem;
   color      : #282828;
 }
 @keyframes ShadowFade {
@@ -273,7 +273,7 @@ option{
 
   font-family: 'Author-Regular';
   font-weight: 700;
-  font-size  : 85px;
+  font-size  : 6rem;
   color      : #282828;
 }
 .Start-PlayBtn{
@@ -288,7 +288,7 @@ option{
 .Start-PlayBtn h1{
   font-family: 'Satoshi-Medium', sans-serif;
   font-weight: 800;
-  font-size  : 45px;
+  font-size  : 4rem;
   color      : #282828;
 }
 .Admin-Canvas{
@@ -316,7 +316,7 @@ option{
 
   font-family: 'Author-Regular';
   font-weight: 700;
-  font-size  : 35px;
+  font-size  : 3rem;
   color      : #282828;
 }
 .Admin-Title h2{
@@ -324,7 +324,7 @@ option{
 
   font-family: 'Author-Regular';
   font-weight: 500;
-  font-size  : 75px;
+  font-size  : 4rem;
   color      : #282828;
 }
 .Admin-List{
@@ -341,7 +341,7 @@ option{
 }
 .Admin-List-Item h2{
   font-family : 'Satoshi-Medium', sans-serif;
-  font-size   : 42px;
+  font-size   : 2.5rem;
   font-weight : 600;
   color       : #282828;
   user-select : none;
@@ -363,7 +363,7 @@ option{
   border: 0;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 27px;
+  font-size: 2rem;
   font-weight: 300;
   color: #282828;
 }
@@ -379,7 +379,7 @@ option{
 
   font-family: 'Author-Regular', sans-serif;
   font-weight: 700;
-  font-size  : 55px;
+  font-size  : 4.5rem;
   color      : #282828;
 }
 .Settings-List{
@@ -396,7 +396,7 @@ option{
 }
 .Settings-List-Item h2{
   font-family : 'Satoshi-Medium', sans-serif;
-  font-size   : 42px;
+  font-size   : 3.5rem;
   font-weight : 600;
   color       : #282828;
   user-select : none;
@@ -415,14 +415,14 @@ option{
   background: transparent;
 
   font-family : 'Satoshi-Medium', sans-serif;
-  font-size   : 42px;
+  font-size   : 3.5rem;
   font-weight : 800;
   color       : #121212;
   user-select : none;
 }
 .Item-Option{
   font-family : 'Satoshi-Medium', sans-serif;
-  font-size   : 18px;
+  font-size   : 1rem;
   font-weight : 800;
   color       : #121212;
   user-select : none;
@@ -438,7 +438,7 @@ option{
   padding: 15px 0px 15px 15px;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #3f3f3f;
   user-select: none;
@@ -454,7 +454,7 @@ option{
   border: 0;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 27px;
+  font-size: 2rem;
   font-weight: 300;
   color: #282828;
 }
@@ -470,7 +470,7 @@ option{
 
   font-family: 'Author-Regular', sans-serif;
   font-weight: 700;
-  font-size  : 55px;
+  font-size  : 4rem;
   color      : #282828;
 }
 .Task-AddTask{
@@ -493,7 +493,7 @@ option{
   background: transparent;
 
   font-family : 'Satoshi-Medium', sans-serif;
-  font-size   : 42px;
+  font-size   : 3rem;
   font-weight : 800;
   color       : #121212;
   user-select : none;
@@ -508,7 +508,7 @@ option{
   border: 0px;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 42px;
+  font-size: 3rem;
   font-weight: 800;
   color: #121212;
   user-select: none;
@@ -521,7 +521,7 @@ option{
   background: transparent;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 62px;
+  font-size: 4rem;
   font-weight: 800;
   color: #121212;
   user-select: none;
@@ -546,7 +546,7 @@ option{
 }
 .Task-Sown-Info h1{
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
   color: #282828;
   user-select: none;
@@ -563,7 +563,7 @@ option{
   background: transparent;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 52px;
+  font-size: 3.5rem;
   font-weight: 800;
   color: #121212;
   user-select: none;
@@ -573,7 +573,7 @@ option{
 }
 .Task-Shown-Text h1{
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 37px;
+  font-size: 2.5rem;
   font-weight: 700;
   color: black;
 }
@@ -588,7 +588,7 @@ option{
   border: 0;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 27px;
+  font-size: 2.5rem;
   font-weight: 300;
   color: #282828;
 }
@@ -655,7 +655,7 @@ option{
 .Popup-Btn h1{
   font-family: 'Author-Regular', sans-serif;
   font-weight: 700;
-  font-size  : 35px;
+  font-size  : 2.5rem;
   color      : #282828;
 
   padding-right: 10px;
@@ -672,12 +672,12 @@ option{
 .Popup-Task h1{
   font-family: 'Author-Regular', sans-serif;
   font-weight: 700;
-  font-size  : 55px;
+  font-size  : 3.5rem;
   color      : #282828;
 }
 .Popup-Task h2{
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 37px;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #282828;
 }
@@ -743,7 +743,7 @@ option{
 }
 .Timer-Btn h1{
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 42px;
+  font-size: 3rem;
   font-weight: 700;
   color: white;
 }
@@ -782,7 +782,7 @@ option{
 .Number-Display h1{
   font-family: 'Satoshi-Medium', sans-serif;
   font-weight: 900;
-  font-size: 500px;
+  font-size: 25rem;
   color: white;
   text-shadow: black 0px 0px 100px;
 }
@@ -834,14 +834,14 @@ option{
 .Winner-Display h1{
   font-family: 'Satoshi-Medium', sans-serif;
   font-weight: 900;
-  font-size: 500px;
+  font-size: 30rem;
   color: white;
   text-shadow: black 0px 0px 75px;
 }
 .Winner-Display h2{
   font-family: 'Satoshi-Medium', sans-serif;
   font-weight: 500;
-  font-size: 100px;
+  font-size: 20rem;
   color: white;
   text-shadow: black 0px 0px 50px;
 }
@@ -876,7 +876,7 @@ option{
 .Header-Title{
   font-family: 'Author-Regular', sans-serif;
   font-weight: 300;
-  font-size  : 25px;
+  font-size  : 1.5rem;
   color      : white;
 }
 .Header-Players{
@@ -891,7 +891,7 @@ option{
 }
 .Player-Canvas h1{
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   color: white;
   padding: 2px 5px;
@@ -958,7 +958,7 @@ option{
   box-sizing: border-box;
 
   font-family: 'Satoshi-Medium', sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 700;
   color: #282828;
 }
@@ -1053,6 +1053,6 @@ option{
 .Game-Dice h1{
   font-family: 'Author-Regular', sans-serif;
   font-weight: 500;
-  font-size  : 50px;
+  font-size  : 4rem;
   color      : white;
 }
