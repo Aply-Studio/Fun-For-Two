@@ -12,6 +12,9 @@ body{
 
   background: radial-gradient(circle, #0466c8 0%, rgba(9,9,121,1) 75%, rgba(2,0,36,1) 100%);
 }
+h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+font-weight: normal;
+}
 h1{
   user-select: none;
 }
