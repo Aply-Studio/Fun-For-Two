@@ -1,0 +1,1058 @@
+*{
+  padding: 0;
+  margin : 0;
+
+  transition: all 0.3s ease;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+
+  background: radial-gradient(circle, #0466c8 0%, rgba(9,9,121,1) 75%, rgba(2,0,36,1) 100%);
+}
+h1{
+  user-select: none;
+}
+h2{
+  user-select: none;
+}
+
+@font-face {
+  font-family: "Author-Regular";
+  src: url("../fonts/Satoshi-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Supreme-Medium";
+  src: url("../fonts/Outfit-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+::-webkit-scrollbar {
+  border-radius: 20px;
+
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 20px;
+
+  background: hsl(0 0% 93% / 1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+
+  background: hsl(0 0% 60% / 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(0 0% 70% / 1);
+}
+.FlexboxCenterCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FlexboxCenterStart{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.FlexboxCenterEnd{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.FlexboxWrapRowEndCenterCenter{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+.FlexboxWarp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.FlexboxColumnCenterCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.FlexboxColumnStartCenter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.FlexboxColumnEndCenter{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.FlexboxRowSpaceMaxCenter{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.FlexboxRowSpaceAroundCenter{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.FlexboxRowSpaceAroundCenter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.FlexboxRowCenterCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.Section-Canvas{
+  height: 100vh;
+  width: 100vw;
+}
+.Image-Cover{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Title-Canvas{
+  height: auto;
+  width: 80vw;
+  padding: 45px 0px 75px 0px;
+}
+.Seperation-Line{
+  height: 4px;
+  width: 90vw;
+
+  background-color: #3f3f3f;
+
+  margin-bottom: 30px;
+}
+option{
+  font-size: 16px;
+  font-weight: 600px;
+  padding: 3px;"
+}
+.Start-Login{
+  position: absolute;
+
+  height: 100%;
+  width: 100vw;
+
+  z-index: 999;
+}
+.Login-Canvas{
+  transition: all 1s ease;
+
+  animation: ShadowFade 1s 0s ease;
+
+  height: 200%;
+  width: 100vw;
+
+  box-shadow: inset 0px 0px 5000px black;
+}
+.Login-Data{
+  transition: all 1s ease;
+
+  animation: PopUpLogin 0.5s 0s ease;
+
+  height: auto;
+  width: 80vw;
+
+  border-radius: 30px;
+  padding: 25px;
+
+  background-color: white;
+
+  padding: 5px;
+}
+.Login-Data h1{
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 700;
+  font-size  : 55px;
+  color      : #282828;
+
+  padding-bottom: 25px;
+}
+.Login-Data input{
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-weight: 700;
+  font-size  : 45px;
+  color      : #282828;
+
+  padding-bottom: 15px;
+}
+.Login-Input{
+  width: 50%;
+  height: 50px;
+
+  outline: none;
+  border: 0;
+
+  text-align: center;
+}
+.Login-Btn{
+  padding-top: 15px;
+
+  height: auto;
+  width: auto;
+
+  border: 0;
+  background: transparent;
+
+  float: right;
+}
+.Login-Btn h1{
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 700;
+  font-size  : 45px;
+  color      : #282828;
+}
+@keyframes ShadowFade {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes PopUpLogin {
+  from{
+    transform:scale(0.0);
+  }
+  to{
+    transform:scale(1.0);
+  }
+}
+.Start-Canvas{
+  height: 70vh;
+  width: 100vw;
+
+  background-color: #fff;
+  border-radius: 30px 30px 0px 0px;
+}
+.Start-Logo{
+  height: 350px;
+  width: 350px;
+
+  border-radius: 50%;
+  border: 25px solid white;
+
+  margin-top: -175px;
+
+  background-image: url('../img/Logo.png');
+
+  background-color: #0466C8;
+}
+.Start-Title h1{
+  text-align: center;
+
+  font-family: 'Author-Regular';
+  font-weight: 700;
+  font-size  : 85px;
+  color      : #282828;
+}
+.Start-PlayBtn{
+  height: 100px;
+  width: 300px;
+
+  border: 8px solid #282828;
+  border-radius: 40px;
+
+  background-color: transparent;
+}
+.Start-PlayBtn h1{
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-weight: 800;
+  font-size  : 45px;
+  color      : #282828;
+}
+.Admin-Canvas{
+  height: 80vh;
+  width: 100vw;
+
+  background-color: #fff;
+  border-radius: 30px 30px 0px 0px;
+}
+.Admin-Logo{
+  height: 128px;
+  width: 128px;
+
+  border-radius: 50%;
+  border: 10px solid white;
+
+  margin-top: -75px;
+
+  background-image: url('../img/Logo.png');
+
+  background-color: #0466C8;
+}
+.Admin-Title h1{
+  text-align: center;
+
+  font-family: 'Author-Regular';
+  font-weight: 700;
+  font-size  : 35px;
+  color      : #282828;
+}
+.Admin-Title h2{
+  text-align: center;
+
+  font-family: 'Author-Regular';
+  font-weight: 500;
+  font-size  : 75px;
+  color      : #282828;
+}
+.Admin-List{
+  width: 80vw;
+  height: auto;
+
+  list-style: none;
+}
+.Admin-List-Item{
+  height: 50px;
+  width: auto;
+
+  padding: 0px 0px 32px 0px;
+}
+.Admin-List-Item h2{
+  font-family : 'Satoshi-Medium', sans-serif;
+  font-size   : 42px;
+  font-weight : 600;
+  color       : #282828;
+  user-select : none;
+}
+.Admin-List-Checkbox{
+  width: 35px;
+  height: 35px;
+
+  border-radius: 30px;
+}
+.Admin-CloseBtn{
+  height: auto;
+  width: auto;
+
+  padding: 40px 0px 0px 0px;
+
+  background: transparent;
+  text-decoration: underline;
+  border: 0;
+
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  color: #282828;
+}
+.Settings-Canvas{
+  height: 90vh;
+  width: 100vw;
+
+  background-color: #fff;
+  border-radius: 30px 30px 0px 0px;
+}
+.Settings-Title h1{
+  text-align: left;
+
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 700;
+  font-size  : 55px;
+  color      : #282828;
+}
+.Settings-List{
+  width: 80vw;
+  height: auto;
+
+  list-style: none;
+}
+.Settings-List-Item{
+  height: 50px;
+  width: auto;
+
+  padding: 0px 0px 32px 0px;
+}
+.Settings-List-Item h2{
+  font-family : 'Satoshi-Medium', sans-serif;
+  font-size   : 42px;
+  font-weight : 600;
+  color       : #282828;
+  user-select : none;
+}
+.Item-Selection{
+  height: auto;
+  width: auto;
+
+  appearance: none;
+
+  border: none;
+  outline: none;
+
+  text-align: right;
+
+  background: transparent;
+
+  font-family : 'Satoshi-Medium', sans-serif;
+  font-size   : 42px;
+  font-weight : 800;
+  color       : #121212;
+  user-select : none;
+}
+.Item-Option{
+  font-family : 'Satoshi-Medium', sans-serif;
+  font-size   : 18px;
+  font-weight : 800;
+  color       : #121212;
+  user-select : none;
+}
+.Settings-TaskBtn{
+  height: auto;
+  width: auto;
+
+  background: transparent;
+  text-decoration: underline;
+  border: 0;
+
+  padding: 15px 0px 15px 15px;
+
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  color: #3f3f3f;
+  user-select: none;
+}
+.Settings-SaveBtn{
+  height: auto;
+  width: auto;
+
+  padding: 40px 0px 0px 0px;
+
+  background: transparent;
+  text-decoration: underline;
+  border: 0;
+
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  color: #282828;
+}
+.Task-Canvas{
+  height: 90vh;
+  width: 100vw;
+
+  background-color: #fff;
+  border-radius: 30px 30px 0px 0px;
+}
+.Task-Title h1{
+  text-align: left;
+
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 700;
+  font-size  : 55px;
+  color      : #282828;
+}
+.Task-AddTask{
+  height: auto;
+  width: 90vw;
+
+  padding: 25px;
+}
+.Task-Diffi-Selection{
+  height: auto;
+  width: auto;
+
+  appearance: none;
+
+  border: none;
+  outline: none;
+
+  text-align: right;
+
+  background: transparent;
+
+  font-family : 'Satoshi-Medium', sans-serif;
+  font-size   : 42px;
+  font-weight : 800;
+  color       : #121212;
+  user-select : none;
+
+  text-decoration: underline;
+}
+.Task-Add-Input{
+  width: 550px;
+  height: auto;
+
+  outline: none;
+  border: 0px;
+
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: #121212;
+  user-select: none;
+}
+.Task-AddBtn{
+  width: auto;
+  height: auto;
+
+  border: 0;
+  background: transparent;
+
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  color: #121212;
+  user-select: none;
+}
+.Task-List-Canvas{
+  height: 50vh;
+  width: 90vw;
+
+  padding: 20px 0px;
+
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.Task-Shown{
+  height: auto;
+  width: 85vw;
+
+  padding: 9px;
+  margin-top: 20px;
+
+  border-bottom: 2px solid #282828;
+}
+.Task-Sown-Info h1{
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #282828;
+  user-select: none;
+}
+.Task-Mode-Info{
+  width: 70vw;
+  height: auto;
+}
+.Task-RemoveBtn{
+  width: auto;
+  height: auto;
+
+  border: 0;
+  background: transparent;
+
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  color: #121212;
+  user-select: none;
+}
+.Task-Shown-Text{
+  width: 100%;
+}
+.Task-Shown-Text h1{
+  font-family: 'Satoshi-Medium', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  color: black;
+}
+.Task-SaveTasksBtn{
+  height: auto;
+  width: auto;
+
+  padding: 40px 0px 0px 0px;
+
+  background: transparent;
+  text-decoration: underline;
+  border: 0;
+
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  color: #282828;
+}
+.Game-Main{
+  height: auto;
+}
+.Game-Task{
+  position: absolute;
+
+  height: 200%;
+  width: 100vw;
+
+  margin-top: 40%;
+  z-index: 999;
+}
+.Popup-Canvas{
+  transition: all 1s ease;
+
+  animation: ShadowFade 1s 0s ease;
+
+  height: 200%;
+  width: 100vw;
+
+  box-shadow: inset 0px 0px 5000px black;
+}
+@keyframes ShadowFade {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.Popup-Data{
+  transition: all 1s ease;
+
+  animation: PopUp 0.5s 0s ease;
+
+  height: auto;
+  width: 80vw;
+
+  border-radius: 30px;
+  padding: 25px;
+
+  background-color: white;
+}
+@keyframes PopUp {
+  from{
+    transform:scale(0.0);
+  }
+  to{
+    transform:scale(1.0);
+  }
+}
+.Popup-Btn{
+  height: auto;
+  width: auto;
+
+  border: 0;
+  background: transparent;
+
+  float: right;
+}
+.Popup-Btn h1{
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 700;
+  font-size  : 35px;
+  color      : #282828;
+
+  padding-right: 10px;
+}
+.Popup-Btn-Icon{
+  width: 46px;
+  height: 46px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../img/Finish.png');
+}
+.Popup-Task h1{
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 700;
+  font-size  : 55px;
+  color      : #282828;
+}
+.Popup-Task h2{
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  color: #282828;
+}
+.Popup-Easy{
+  background-color: #BDFFB6;
+}
+.Popup-Normal{
+  background-color: #FFE785;
+}
+.Popup-Hard{
+  background-color: #FFB887;
+}
+.Popup-Hardcore{
+  background-color: #FF8A89;
+}
+
+.Popup-Timer{
+  height: auto;
+  width: auto;
+
+  padding-top: 75px;
+}
+.Timer-Btn{
+  width: 200px;
+  height: 200px;
+
+  border: 15px solid white;
+  border-radius: 50%;
+
+  background-color: #0466C8;
+
+  outline: none;
+}
+.Timer-SelectAble{
+  user-select: all;
+  pointer-events: all;
+}
+.Timer-NotSelectAble{
+  user-select: none;
+  pointer-events: none;
+}
+.Timer-Filler{
+  width: 105%;
+  height: 105%;
+
+  background-color: #FF8A89;
+
+  border-radius: 50%;
+
+  animation-name: TimerFiller;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+}
+@keyframes TimerFiller {
+      from{
+        height: 0%;
+        width: 0%;
+      }
+      to{
+        height: 105%;
+        width: 105%;
+      }
+}
+.Timer-Btn h1{
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+}
+.Game-Number{
+  position: absolute;
+
+  height: 200%;
+  width: 100vw;
+
+  margin-top: 40%;
+  z-index: 999;
+}
+.Number-Canvas{
+  transition: all 1s ease;
+
+  animation: ShadowFade 1s 0s ease;
+
+  height: 200%;
+  width: 100vw;
+
+  box-shadow: inset 0px 0px 5000px black;
+}
+@keyframes ShadowFade {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.Number-Display{
+  transition: all 1s ease;
+
+  animation: ScaleUp 1.5s 0s ease-in-out;
+}
+.Number-Display h1{
+  font-family: 'Supreme-Medium', sans-serif;
+  font-weight: 900;
+  font-size: 500px;
+  color: white;
+  text-shadow: black 0px 0px 100px;
+}
+@keyframes ScaleUp {
+  from{
+    transform:scale(0.0);
+  }
+  50%{
+    transform:scale(1.0);
+  }
+  to{
+    transform:scale(0.0);
+  }
+}
+.Game-Winner{
+  position: absolute;
+
+  height: 200%;
+  width: 100vw;
+
+  margin-top: 40%;
+  z-index: 999;
+}
+.Winner-Canvas{
+  transition: all 1s ease;
+
+  animation: ShadowFade 1s 0s ease;
+
+  height: 200%;
+  width: 100vw;
+
+  box-shadow: inset 0px 0px 5000px black;
+}
+@keyframes ShadowFade {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.Winner-Display{
+  transition: all 1s ease;
+
+  animation: ScaleUpWinner 1s 0s ease-in-out;
+
+  text-align: center;
+}
+.Winner-Display h1{
+  font-family: 'Supreme-Medium', sans-serif;
+  font-weight: 900;
+  font-size: 500px;
+  color: white;
+  text-shadow: black 0px 0px 75px;
+}
+.Winner-Display h2{
+  font-family: 'Supreme-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 100px;
+  color: white;
+  text-shadow: black 0px 0px 50px;
+}
+@keyframes ScaleUpWinner {
+  from{
+    transform:scale(0.0);
+  }
+  to{
+    transform:scale(1.0);
+  }
+}
+.Game-Header{
+  height: 20vh;
+  width: 100vw;
+}
+.Header-Logo{
+  height: 164px;
+  width: 164px;
+
+  border-radius: 50%;
+  border: 10px solid white;
+
+  margin-bottom: 30px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../img/Logo.png');
+
+  background-color: #0466C8;
+}
+.Header-Title{
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 300;
+  font-size  : 25px;
+  color      : white;
+}
+.Header-Players{
+  height: 100%;
+  width: 50%;
+}
+.Player-Canvas{
+  height: auto;
+  width: auto;
+
+  margin-right: 40px;
+}
+.Player-Canvas h1{
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  padding: 2px 5px;
+}
+.Player-Selected{
+  opacity: 100%;
+}
+.Player-NotSelected{
+  opacity: 50%;
+}
+.Player-Icon{
+  height: 82px;
+  width: 82px;
+
+  border-radius: 50%;
+  border: 5px solid white;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-color: #0466C8;
+}
+.Pl1-Icon{
+  background-image: url('../img/Pl_1.png');
+}
+.Pl2-Icon{
+  background-image: url('../img/Pl_2.png');
+}
+.Pl3-Icon{
+  background-image: url('../img/Pl_3.png');
+}
+.Pl4-Icon{
+  background-image: url('../img/Pl_4.png');
+}
+.Pl5-Icon{
+  background-image: url('../img/Pl_5.png');
+}
+.Pl6-Icon{
+  background-image: url('../img/Pl_6.png');
+}
+.Game-Board{
+  width: 100vw;
+}
+.Board-Cell{
+  height: 130px;
+  width: 120px;
+
+  border-radius: 15px;
+
+  margin-right: 16px;
+  margin-bottom: 16px;
+
+  background: white;
+}
+.Board-Cell h2{
+  height: auto;
+  width: auto;
+
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+  padding: 5px 0px 0px 5px;
+  box-sizing: border-box;
+
+  font-family: 'Supreme-Medium', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #282828;
+}
+.Cell-Flexbox{
+  width: 100%;
+  height: auto;
+}
+.No-Task{
+  background: white;
+}
+.Easy-Task{
+  background: #BDFFB6;
+}
+.Normal-Task{
+  background: #FFE785;
+}
+.Hard-Task{
+  background: #FFB887;
+}
+.Hardcore-Task{
+  background: #FF8A89;
+}
+
+.Start-Cell{
+  background: #88C8FF;
+}
+.End-Cell{
+  background: #88C8FF;
+}
+.Player-Pawn{
+  width: 40px;
+  height: 40px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Pl1-Pawn{
+  background-image: url('../img/Pl_1 32x.png');
+}
+.Pl2-Pawn{
+  background-image: url('../img/Pl_2 32x.png');
+}
+.Pl3-Pawn{
+  background-image: url('../img/Pl_3 32x.png');
+}
+.Pl4-Pawn{
+  background-image: url('../img/Pl_4 32x.png');
+}
+.Pl5-Pawn{
+  background-image: url('../img/Pl_5 32x.png');
+}
+.Pl6-Pawn{
+  background-image: url('../img/Pl_6 32x.png');
+}
+.Game-Footer{
+  height: auto;
+  width: 90vw;
+
+  padding-top: 150px;
+}
+.Game-Dice{
+  width: auto;
+  height: auto;
+}
+.Dice-Btn{
+  height: 128px;
+  width: 128px;
+
+  border-radius: 50%;
+  border: 10px solid white;
+
+  padding: 15px;
+  box-sizing: content-box;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-color: #0466c8;
+  background-image: url('../img/Dice.png');
+}
+.Btn-SelectAble{
+  pointer-events: all;
+  user-select: all;
+  opacity: 100%;
+}
+.Btn-NotSelectAble{
+  pointer-events: none;
+  user-select: none;
+  opacity: 50%;
+}
+.Game-Dice h1{
+  font-family: 'Author-Regular', sans-serif;
+  font-weight: 500;
+  font-size  : 50px;
+  color      : white;
+}
