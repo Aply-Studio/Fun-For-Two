@@ -32,13 +32,13 @@ h2{
   font-family: "Supreme-Medium";
   src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
 }
 @font-face {
   font-family: "Satoshi-Medium";
   src: url("../fonts/Satoshi-Light.woff2") format("woff2");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
 }
 ::-webkit-scrollbar {
   border-radius: 20px;
@@ -386,7 +386,7 @@ option{
   color      : #282828;
 }
 .Settings-List{
-  width: 80vw;
+  width: 95vw;
   height: auto;
 
   list-style: none;
