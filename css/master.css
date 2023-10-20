@@ -27,13 +27,13 @@ h2{
 }
 @font-face {
   font-family: "Supreme-Medium";
-  src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
+  src: url("../fonts/Satoshi-Black.woff2") format("woff2");
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
   font-family: "Satoshi-Medium";
-  src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
+  src: url("../fonts/Satoshi-Black.woff2") format("woff2");
   font-style: normal;
   font-weight: 500;
 }
