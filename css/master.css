@@ -397,7 +397,7 @@ option{
 
   padding: 0px 0px 32px 0px;
 }
-.Settings-List-Item h2{
+.Settings-List-Item h1{
   font-family : 'Satoshi-Medium', sans-serif;
   font-size   : 3.5rem;
   font-weight : 600;
